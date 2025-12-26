@@ -1,0 +1,14 @@
+{
+  "name": "crav-orlando-deals",
+  "version": "3.0.0",
+  "description": "Orlando Vacation Deals - Disney, Universal, SeaWorld Planning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "lucide-react": "^0.263.1"
+  }
+}
