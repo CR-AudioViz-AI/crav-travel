@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = { className: 'font-sans' }; // system font fallback
+;
 
 export const metadata: Metadata = {
   title: 'CRAVTravel - AI-Powered Travel Deals Worldwide',
